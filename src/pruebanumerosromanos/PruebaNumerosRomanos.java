@@ -40,6 +40,8 @@ public class PruebaNumerosRomanos {
         catch (InputMismatchException e) {
             System.out.println("Debe ingresar un número entero");
         }
+
+        r.close();
     }
     
     public static String decToRom(Integer number) {
